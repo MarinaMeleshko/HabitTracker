@@ -11,24 +11,24 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-bin/
-Bin/
-obj/
-Obj/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/build/
+**/bld/
+**/bin/
+**/Bin/
+**/obj/
+**/Obj/
 
 # Visual Studio 2015 cache/options directory
-.vs/
+**/.vs/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
+**/[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 # NUNIT
@@ -36,8 +36,8 @@ Obj/
 TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+**/[Dd]ebugPS/
+**/[Rr]eleasePS/
 dlldata.c
 
 *_i.c
@@ -69,7 +69,7 @@ dlldata.c
 _Chutzpah*
 
 # Visual C++ cache files
-ipch/
+**/ipch/
 *.aps
 *.ncb
 *.opendb
@@ -90,7 +90,7 @@ $tf/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*/
+**/_ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
@@ -119,14 +119,14 @@ AutoTest.Net/
 [Ee]xpress/
 
 # DocProject is a documentation generator add-in
-DocProject/buildhelp/
-DocProject/Help/*.HxT
-DocProject/Help/*.HxC
-DocProject/Help/*.hhc
-DocProject/Help/*.hhk
-DocProject/Help/*.hhp
-DocProject/Help/Html2
-DocProject/Help/html
+**/DocProject/buildhelp/
+**/DocProject/Help/*.HxT
+**/DocProject/Help/*.HxC
+**/DocProject/Help/*.hhc
+**/DocProject/Help/*.hhk
+**/DocProject/Help/*.hhp
+**/DocProject/Help/Html2
+**/DocProject/Help/html
 
 # Click-Once directory
 publish/
@@ -149,12 +149,12 @@ publish/
 #!**/packages/repositories.config
 
 # Microsoft Azure Build Output
-csx/
+**/csx/
 *.build.csdef
 
 # Microsoft Azure Emulator
-ecf/
-rcf/
+**/ecf/
+**/rcf/
 
 # Microsoft Azure ApplicationInsights config file
 ApplicationInsights.config
@@ -179,7 +179,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-/node_modules
+**/node_modules
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -228,4 +228,4 @@ _Pvt_Extensions
 .paket/paket.exe
 
 # FAKE - F# Make
-.fake/
+**/fake/
