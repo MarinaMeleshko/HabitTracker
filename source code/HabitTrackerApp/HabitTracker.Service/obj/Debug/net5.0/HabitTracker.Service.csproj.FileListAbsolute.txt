@@ -1,0 +1,17 @@
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Service.deps.json
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Service.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\ref\HabitTracker.Service.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Service.pdb
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Service.Contract.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Service.Contract.pdb
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.csprojAssemblyReference.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.AssemblyInfoInputs.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.AssemblyInfo.cs
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.csproj.CoreCompileInputs.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.csproj.CopyComplete
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\ref\HabitTracker.Service.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\obj\Debug\net5.0\HabitTracker.Service.pdb
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Data.Contract.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Service\bin\Debug\net5.0\HabitTracker.Data.Contract.pdb

@@ -1,0 +1,15 @@
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\HabitTracker.Data.deps.json
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\HabitTracker.Data.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\ref\HabitTracker.Data.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\HabitTracker.Data.pdb
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\HabitTracker.Data.Contract.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\net5.0\HabitTracker.Data.Contract.pdb
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.csprojAssemblyReference.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.AssemblyInfoInputs.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.AssemblyInfo.cs
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.csproj.CoreCompileInputs.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.csproj.CopyComplete
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\ref\HabitTracker.Data.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\net5.0\HabitTracker.Data.pdb

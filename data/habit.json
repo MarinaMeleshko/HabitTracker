@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Vegetables for dinner",
+    "progress": [ true, true, false, true, false, false, true],
+    "duration": "30",
+    "creationDate": "1/1/2021"
+  },
+  {
+    "id": 2,
+    "title": "Exercise",
+    "progress": [ true, false, true ],
+    "duration": 30,
+    "creationDate": "12/15/2020"
+  },
+  {
+    "id": 3,
+    "title": "Scin care",
+    "progress": [ true, true, true, true, true ],
+    "duration": 5,
+    "creationDate": "12/15/2020"
+  },
+  {
+    "id": 4,
+    "title": "Reading",
+    "progress": [ true, false, true, false, true ],
+    "duration": 5,
+    "creationDate": "12/15/2020"
+  }
+]

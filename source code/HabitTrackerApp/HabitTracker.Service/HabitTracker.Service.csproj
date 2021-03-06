@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HabitTracker.Data.Contract\HabitTracker.Data.Contract.csproj" />
+    <ProjectReference Include="..\HabitTracker.Service.Contract\HabitTracker.Service.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

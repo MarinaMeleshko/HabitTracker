@@ -1,0 +1,4 @@
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\bin\Debug\netstandard2.0\HabitTracker.Data.Contract.dll
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\netstandard2.0\HabitTracker.Data.csprojAssemblyReference.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\netstandard2.0\HabitTracker.Data.AssemblyInfoInputs.cache
+D:\habit tracker\source code\HabitTrackerApp\HabitTracker.Data\obj\Debug\netstandard2.0\HabitTracker.Data.AssemblyInfo.cs

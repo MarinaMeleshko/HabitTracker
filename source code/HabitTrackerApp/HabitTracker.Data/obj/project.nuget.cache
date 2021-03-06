@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aQky2aL5GiQcylFVgOUcEcqTPJelSH2rhTOilDe8PQPpHgefOkikuR21NZn/bAl1nGF8LbbMHsyWY9f823rbqQ==",
+  "success": true,
+  "projectFilePath": "D:\\habit tracker\\source code\\HabitTrackerApp\\HabitTracker.Data\\HabitTracker.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irmel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
