@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, SimpleChanges } from '@angular/core';
 
 @Component({
     selector: 'app-progress-item',
@@ -17,7 +17,6 @@ export class ProgressItemComponent {
 
   changeProgress() {
     this.isCompleted = !this.isCompleted;
-    console.log(`change progress: index = ${this.index}, value = ${this.isCompleted}`);
 
     this.isCompletedEvent.emit([this.isCompleted, this.index]);
   }

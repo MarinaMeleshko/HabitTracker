@@ -29,10 +29,9 @@ export class HabitProgressComponent {
   }
 
   completeProgressItem(data: [boolean, number]) {
-    let index: number, isCompleted: boolean;
+    let isCompleted: boolean, index: number;
     [isCompleted, index] = data;
-    console.log(`Progress changed: ${this.habit.title}: index = ${index}, value = ${isCompleted}`);
-
-    this.progress[index] = isCompleted;
+    
+    this.habit.progress[index] = isCompleted;
   }
 }
