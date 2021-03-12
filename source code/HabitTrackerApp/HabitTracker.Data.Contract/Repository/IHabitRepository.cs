@@ -11,5 +11,7 @@ namespace HabitTracker.Data.Contract.Repository
         Task<Habit> GetHabitAsync(int id);
 
         Task<Habit> GetHabitAsync(string title);
+
+        Task UpdateHabits(IEnumerable<Habit> habits);
     }
 }

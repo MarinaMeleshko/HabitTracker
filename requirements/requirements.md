@@ -24,4 +24,10 @@ Create habit with the following properties:
 - Don't create the array of progress ("progress" property) until at least one checkbox it checked
 - The last item of "progress" array is always true
 - New items to the progress array are added only by check of some checkbox
-- 
+
+### Save habit progress to db (json file)
+- Saving occurs in AppComponent 
+- AppComponent has properties that store last save and change time
+- AppComponent detects updates of habit obejects
+- By every change of some habit the following logic as apllied:
+if last save occurred more than 10 sec ago OR last change occurred more that 10 sec ago, saving is perfomed.

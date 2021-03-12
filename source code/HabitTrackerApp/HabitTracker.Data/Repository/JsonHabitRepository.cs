@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -47,6 +48,14 @@ namespace HabitTracker.Data.Repository
             var habit = habits.FirstOrDefault(h => h.Title.Trim() == title.Trim());
 
             return habit;
+        }
+
+        public async Task UpdateHabits(IEnumerable<Habit> habits)
+        {
+            await using var streamWriter = File.CreateText(_jsonFilePath);
+
+            var jsonSerializer = new JsonSerializer();
+            jsonSerializer.Serialize(streamWriter, habits);
         }
     }
 }

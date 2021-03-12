@@ -23,5 +23,12 @@ namespace HabitTracker.Client.Controllers
         {
             return await _habitService.GetHabitsAsync();
         }
+
+        [HttpPost]
+        [Route("updatehabits")]
+        public async Task UpdateHabits(IEnumerable<Habit> habits)
+        {
+            await _habitService.UpdateHabits(habits);
+        }
     }
 }
