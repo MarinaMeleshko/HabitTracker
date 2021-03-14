@@ -26,7 +26,7 @@ namespace HabitTracker.Client.Controllers
 
         [HttpPost]
         [Route("updatehabits")]
-        public async Task UpdateHabits(IEnumerable<Habit> habits)
+        public async Task UpdateHabits([FromBody] IEnumerable<Habit> habits)
         {
             await _habitService.UpdateHabits(habits);
         }

@@ -7,12 +7,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HabitProgressComponent } from './habit-progress/habit-progress.component'
 import { ProgressItemComponent } from './progress-item/progress-item.component'
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HabitProgressComponent,
-    ProgressItemComponent
+    ProgressItemComponent,
+    ProgressSpinnerComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
