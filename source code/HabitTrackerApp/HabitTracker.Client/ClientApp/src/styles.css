@@ -1,16 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+:root {
+  --accent-font-family: 'Poppins', sans-serif;
+  --primary-font-family: 'Noto Sans', sans-serif;
+  --light-grain-color: #F0EBE9;
+  --grain-color: #D7CEC7;
+  --blackboard-color: #565656;
+  --oxblood0color: #76323F;
+  --tan-color: #C09F80;
 }
 
-code {
-  color: #e01a76;
+body {
+    font-family: var(--primary-font-family)
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.header {
+    font-family: var(--accent-font-family);
+    font-size: 32px;
+
+    color: var(--blackboard-color);
+    margin: 10px -15px;
+}
+
+.content {
+    background-color: var(--light-grain-color);
+    border-radius: 15px;
+    padding: 15px;
 }

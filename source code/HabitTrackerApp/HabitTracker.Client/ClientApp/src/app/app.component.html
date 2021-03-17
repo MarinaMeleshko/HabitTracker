@@ -1,4 +1,26 @@
-<app-progress-spinner [isInProgress]="isUpdateInProgress"></app-progress-spinner>
-<div *ngFor="let habit of habits">
-  <app-habit-progress [habit]="habit"></app-habit-progress>
+<div class="container-fluid">
+  <div class="row">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12">
+
+      <div class="row header">
+        Habit tracker
+      </div>
+
+      <div class="row content">
+        <app-progress-spinner [isInProgress]="isUpdateInProgress"></app-progress-spinner>
+
+        <div *ngFor="let habit of habits">
+          <app-habit-progress [habit]="habit"></app-habit-progress>
+        </div>
+
+      </div>
+
+      <div class="row footer">
+
+      </div>
+
+    </div>
+  </div>
 </div>
+
+

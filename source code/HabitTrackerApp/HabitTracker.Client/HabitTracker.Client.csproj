@@ -32,6 +32,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ClientApp\src\fonts.css" />
+    <Content Include="ClientApp\src\styles.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HabitTracker.Data.Contract\HabitTracker.Data.Contract.csproj" />
     <ProjectReference Include="..\HabitTracker.Data\HabitTracker.Data.csproj" />
     <ProjectReference Include="..\HabitTracker.Service.Contract\HabitTracker.Service.Contract.csproj" />
@@ -42,6 +47,10 @@
     <TypeScriptCompile Include="ClientApp\src\app\date.helper.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\habit.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\model\habit.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\resources\css\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
