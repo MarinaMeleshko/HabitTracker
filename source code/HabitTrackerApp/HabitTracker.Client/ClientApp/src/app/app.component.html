@@ -2,17 +2,14 @@
   <div class="row">
     <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12">
 
-      <div class="row header">
-        Habit tracker
+      <div class="row page-header">
+        <div class="header flex-grow-1">Habit tracker</div>
+        <app-progress-spinner [isInProgress]="isUpdateInProgress"></app-progress-spinner>
       </div>
 
       <div class="row content">
-        <app-progress-spinner [isInProgress]="isUpdateInProgress"></app-progress-spinner>
-
-        <div *ngFor="let habit of habits">
-          <app-habit-progress [habit]="habit"></app-habit-progress>
-        </div>
-
+        <app-habit-progress *ngFor="let habit of habits" [habit]="habit">
+        </app-habit-progress>
       </div>
 
       <div class="row footer">

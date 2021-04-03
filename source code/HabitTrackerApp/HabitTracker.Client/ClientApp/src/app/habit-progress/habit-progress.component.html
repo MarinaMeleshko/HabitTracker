@@ -1,13 +1,14 @@
-<div>
-  <div>
+<div class="card">
+  <div class="title">
     {{ habit.title }}
   </div>
-  <div>
+  <div class="secondary-title">
     {{ habit.creationDate | date: 'mediumDate' }}
   </div>
-  <div *ngFor="let isCompleted of progress; index as index">
-    <app-progress-item (isCompletedEvent)="completeProgressItem($event)"
-                       [index]="index"
-                       [isCompleted]="isCompleted"></app-progress-item>
+  <div class="row m-0">
+      <app-progress-item *ngFor="let isCompleted of progress; index as index"
+                         (isCompletedEvent)="completeProgressItem($event)"
+                         [index]="index"
+                         [isCompleted]="isCompleted"></app-progress-item>
   </div>
 </div>
