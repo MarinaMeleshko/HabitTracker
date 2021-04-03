@@ -11,7 +11,7 @@ import { getDifferenceInSeconds } from "./date.helper";
 
 export class AppComponent {
   static readonly SAVE_TIME_INTERVAL = 10;
-  static readonly SAVE_CHANGES_INTERVAL = 10;
+  static readonly LAST_CHANGES_INTERVAL = 3;
 
   lastSaveTime: Date;
   lastChangeTime: Date;
@@ -31,7 +31,7 @@ export class AppComponent {
   ngDoCheck() {
     const now = new Date();
 
-    if (this.isSaveIntervalExceeded(now) && this.isChangesIntervalExceeded(now)) {
+    if (this.isSaveIntervalExceeded(now) || this.isChangesIntervalExceeded(now)) {
       this.saveChanges();
     }
 
@@ -71,7 +71,7 @@ export class AppComponent {
   isChangesIntervalExceeded(now: Date): boolean {
     const difference = getDifferenceInSeconds(now, this.lastChangeTime);
 
-    return difference > AppComponent.SAVE_CHANGES_INTERVAL;
+    return difference > AppComponent.LAST_CHANGES_INTERVAL;
   }
 
   fillEmptyProgressWithFalse(habit: Habit) {

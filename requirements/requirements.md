@@ -30,4 +30,4 @@ Create habit with the following properties:
 - AppComponent has properties that store last save and change time
 - AppComponent detects updates of habit obejects
 - By every change of some habit the following logic as apllied:
-if last save occurred more than 10 sec ago OR last change occurred more that 10 sec ago, saving is perfomed.
+if last save occurred more than 10 sec ago OR last change occurred more that 3 sec ago, saving is perfomed.
